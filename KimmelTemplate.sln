@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.Api", "KimmelTemplate.Api\KimmelTemplate.Api.csproj", "{C357EDDC-697A-4053-BA25-24B566B40674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.Common", "KimmelTemplate.Common\KimmelTemplate.Common.csproj", "{3C846D6B-C931-4903-862B-6488AFAC6B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.PublishedLanguage", "KimmelTemplate.PublishedLanguage\KimmelTemplate.PublishedLanguage.csproj", "{B3FF8361-3609-4E63-9047-DC780D8BBE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.ApplicationServices", "KimmelTemplate.ApplicationServices\KimmelTemplate.ApplicationServices.csproj", "{4B69A0E6-EF12-42F0-A07D-81AABDB5B2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.Infrastructure", "KimmelTemplate.Infrastructure\KimmelTemplate.Infrastructure.csproj", "{F747A53A-8965-4875-99C2-B9977C98637A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimmelTemplate.Domain", "KimmelTemplate.Domain\KimmelTemplate.Domain.csproj", "{6D9F0CD6-04D7-4F36-9FDE-7C03CBDA6871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C357EDDC-697A-4053-BA25-24B566B40674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C357EDDC-697A-4053-BA25-24B566B40674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C357EDDC-697A-4053-BA25-24B566B40674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C357EDDC-697A-4053-BA25-24B566B40674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C846D6B-C931-4903-862B-6488AFAC6B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C846D6B-C931-4903-862B-6488AFAC6B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C846D6B-C931-4903-862B-6488AFAC6B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C846D6B-C931-4903-862B-6488AFAC6B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FF8361-3609-4E63-9047-DC780D8BBE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FF8361-3609-4E63-9047-DC780D8BBE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FF8361-3609-4E63-9047-DC780D8BBE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FF8361-3609-4E63-9047-DC780D8BBE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B69A0E6-EF12-42F0-A07D-81AABDB5B2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B69A0E6-EF12-42F0-A07D-81AABDB5B2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B69A0E6-EF12-42F0-A07D-81AABDB5B2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B69A0E6-EF12-42F0-A07D-81AABDB5B2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F747A53A-8965-4875-99C2-B9977C98637A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F747A53A-8965-4875-99C2-B9977C98637A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F747A53A-8965-4875-99C2-B9977C98637A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F747A53A-8965-4875-99C2-B9977C98637A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9F0CD6-04D7-4F36-9FDE-7C03CBDA6871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9F0CD6-04D7-4F36-9FDE-7C03CBDA6871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9F0CD6-04D7-4F36-9FDE-7C03CBDA6871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9F0CD6-04D7-4F36-9FDE-7C03CBDA6871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F52E266-4C11-4FB1-945D-C2D69E510AF0}
+	EndGlobalSection
+EndGlobal
