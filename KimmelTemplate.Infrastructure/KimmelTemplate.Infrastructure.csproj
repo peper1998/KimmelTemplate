@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.15" />
+    <PackageReference Include="Ensure.That" Version="10.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">

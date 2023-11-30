@@ -2,6 +2,7 @@
 using KimmelTemplate.Domain;
 using KimmelTemplate.Infrastructure.DataModel.Context;
 using KimmelTemplate.Infrastructure.Domain;
+using KimmelTemplate.Infrastructure.Factories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +26,7 @@ namespace KimmelTemplate.Infrastructure
            IConfiguration configuration)
         {
             return serviceCollection
+                .AddTransient((options) => new DbConnectionFactory(configuration.GetConnectionString("DB")))
                 .AddDbContext<TodosContext>((options) =>
                 {
                     options.UseSqlServer(configuration.GetConnectionString("DB"));
